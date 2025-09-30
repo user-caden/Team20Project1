@@ -8,7 +8,8 @@
   <h1 style="text-align:center; color:#8B4513; font-family:Georgia;">Khaana: An American Bar & Grill</h1>
   <h2 style="text-align:center; color:#D2691E;">Our Story and History</h2>
   
-  <div style="background:#8B4513; color:white; padding:60px; text-align:center; font-size:48px; border-radius:8px; margin:20px 0;">
+  <div style="text-align:center; margin:20px 0;">
+    <img src="Burger.jpg" alt="Khaana Signature Burger" style="max-width:100%; border-radius:8px;">
   </div>
   
   <p><b>Khaana</b> was founded in <u>1999</u> as a <i>bar and grill</i> in <b>West Lafayette, Indiana</b>. 
