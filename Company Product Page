@@ -1,146 +1,79 @@
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khaana - Our Products</title>
-
-    <style>
-        /* --- General Page Styles --- */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #F5F5DC; /* Beige background */
-            color: #333; /* Dark grey text */
-        }
-
-        /* --- Layout Styles --- */
-        .container {
-            width: 80%;
-            max-width: 900px;
-            margin: 20px auto; /* Centers the container on the page */
-            padding: 20px;
-            background-color: #fff; /* White content box */
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow */
-        }
-
-        /* --- Typography Styles --- */
-        h1, h2, h3, h4 {
-            font-family: 'Georgia', serif; /* A different font for headers */
-            color: #8B4513; /* SaddleBrown color for headers */
-        }
-
-        .special-text {
-            color: #d9534f; /* A shade of red for emphasis */
-            font-size: 1.1em; /* Makes the font slightly larger */
-        }
-
-        .alt-font {
-            font-family: 'Courier New', monospace; /* A different font style */
-            font-size: 0.9em; /* Makes the font slightly smaller */
-        }
-
-        /* --- Specific Element Styles --- */
-        .food-image {
-            width: 100%;
-            max-width: 500px;
-            height: auto;
-            display: block;
-            margin: 20px auto; /* Centers the image */
-            border-radius: 8px;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            font-style: italic;
-            color: #666;
-        }
-
-        hr {
-            border: 0;
-            height: 1px;
-            background: #ddd;
-            margin: 30px 0;
-        }
-    </style>
 </head>
-<body>
 
-    <div class="container">
+<body style="background-color: #F5F5DC; font-family: Arial;">
 
-        <header>
-            <h1>Welcome to Khaana Bar & Grill</h1>
-            <h2>Our Delicious Offerings 🍔</h2>
-        </header>
+    <h1 style="color: #8B4513; font-family: Georgia;">Welcome to Khaana Bar & Grill</h1>
+    <h2 style="color: #8B4513; font-family: Georgia;">Our Delicious Offerings 🍔</h2>
 
-        <hr>
+    <hr>
 
-        <section id="food-menu">
-            <h3>Our Famous Eats</h3>
-            <p>
-                At Khaana, we believe in flavor that makes a statement. Our menu is a celebration of classic bar and grill favorites.
-                We are <strong>absolutely committed</strong> to using the freshest ingredients.
-            </p>
+    <h3>Our Famous Eats</h3>
+    <p>
+        At Khaana, we believe in flavor that makes a statement. Our menu is a celebration of classic bar and grill favorites.
+        We are <b>absolutely committed</b> to using the freshest ingredients.
+    </p>
 
-            <img src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                 alt="A delicious gourmet burger with cheese and a side of french fries"
-                 class="food-image">
+    <img src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+         alt="A delicious gourmet burger with cheese and a side of french fries"
+         width="500">
 
-            <p>
-                Our signature dish, the <u>Khaana Ultimate Burger</u>, is a must-try. It's not just a meal; <em>it's an experience</em>.
-                We also have a <span class="special-text">fantastic selection</span> of other items to satisfy any craving.
-            </p>
+    <p>
+        Our signature dish, the <u>Khaana Ultimate Burger</u>, is a must-try. It's not just a meal; <i>it's an experience</i>.
+        We also have a <font color="#d9534f" size="+1">fantastic selection</font> of other items to satisfy any craving.
+    </p>
 
-            <h4>Signature Appetizers</h4>
-            <ul>
-                <li>Spicy Firecracker Wings</li>
-                <li>Loaded Volcano Nachos</li>
-                <li>Crispy Onion Tower</li>
-                <li>Garlic Parmesan Fries</li>
-            </ul>
-        </section>
+    <h4>Signature Appetizers</h4>
+    <ul>
+        <li>Spicy Firecracker Wings</li>
+        <li>Loaded Volcano Nachos</li>
+        <li>Crispy Onion Tower</li>
+        <li>Garlic Parmesan Fries</li>
+    </ul>
 
-        <hr>
+    <hr>
 
-        <section id="drinks-menu">
-            <h3>Crafted Drinks & Brews</h3>
-            <p>
-                What's a great meal without the perfect drink? Our bar is fully stocked with a wide range of options.
-                <span class="alt-font">From local craft beers to exotic cocktails, we have something to quench your thirst.</span>
-            </p>
+    <h3>Crafted Drinks & Brews</h3>
+    <p>
+        What's a great meal without the perfect drink? Our bar is fully stocked with a wide range of options.
+        <font face="Courier New" size="-1">From local craft beers to exotic cocktails, we have something to quench your thirst.</font>
+    </p>
 
-            <h4>Top Cocktail Picks</h4>
-            <ol>
-                <li>Smoky Old Fashioned</li>
-                <li>Spicy Mango Margarita</li>
-                <li>Classic Mojito</li>
-            </ol>
-        </section>
+    <h4>Top Cocktail Picks</h4>
+    <ol>
+        <li>Smoky Old Fashioned</li>
+        <li>Spicy Mango Margarita</li>
+        <li>Classic Mojito</li>
+    </ol>
 
-        <hr>
+    <hr>
 
-        <section id="links-and-downloads">
-            <h3>More Info & Full Menu</h3>
+    <h3>More Info & Full Menu</h3>
+    <p>
+        Interested in the craft beer scene? Check out our partner, <a href="https://www.brewersassociation.org/" target="_blank">The Brewers Association</a>!
+    </p>
+    <p>
+        Planning a visit? <a href="Khaana Bar menu.pdf" target="_blank">View Our Full Menu (PDF)</a>
+    </p>
 
-            <p>Interested in the craft beer scene? Check out our partner, <a href="https://www.brewersassociation.org/" target="_blank">The Brewers Association</a>!</p>
+    <hr>
 
-            <p>Planning a visit? <a href="Khaana Bar menu.pdf" target="_blank">View Our Full Menu (PDF)</a></p>
-        </section>
+    <br>
+    <i>
+        Have questions? <a href="mailto:contact@khaana-grill.com">Contact me!</a>
+        <br>
+        <small>Last Modified:
+            <script>
+                document.write(document.lastModified);
+            </script>
+        </small>
+    </i>
 
-        <hr>
+</body>
+</html>
 
-        <footer>
-            <p>Have questions? <a href="mailto:contact@khaana-grill.com">Contact me!</a></p>
-
-            <p>
-                <small>Last Modified:
-                <script>
-                    document.write(document.lastModified);
-                </script>
-                </small>
-            </p>
-        </footer>
 
     </div>
 
